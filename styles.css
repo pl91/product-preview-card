@@ -1,0 +1,113 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* set base font size for easy pixel to rem conversions 10px = 1rem */
+html {
+  font-size: 62.5%;
+}
+/* mobile display 375px x 667px */
+body {
+  background-color: #f2eae2;
+  min-width: 37.5rem;
+  min-height: 66.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  min-width: 34.3rem;
+  min-height: 61.1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+}
+
+img {
+  min-width: 34.3rem;
+  min-height: 24rem;
+  margin-bottom: 2.4rem;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+h1,
+h2,
+p {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  max-width: fit-content;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #1c232b;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0%;
+  color: #1c232b;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  color: #6C7289;
+  font-weight: 500;
+}
+
+.pricing {
+    margin-bottom: 0%;
+}
+
+.sale-price {
+  color: #3d8168;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.price {
+    margin-left: 1.9rem;
+    text-decoration: line-through;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fraunces {
+  font-family: "Fraunces", serif;
+}
+
+button {
+    background-color: #3D8168;
+    color: white;
+    border-radius: .8rem;
+    width: 29.5rem;
+    height: 4.8rem;
+    border: white;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+}
+
+.icon {
+    min-width: 1.1439rem;
+    min-height: 1.6rem;
+    margin: auto;
+    margin-right: 1.16rem;
+}
